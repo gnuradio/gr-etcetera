@@ -6,7 +6,7 @@ To add this to your local PyBOMBS recipe list, use the following command:
 
     $ pybombs recipes add gr-etcetera https://github.com/gnuradio/gr-etcetera.git
 
-To find more recipes from the GNU Radio universe, see the gr-etcetera repository:
+To find more recipes from the GNU Radio universe, see the gr-recipes repository:
 
 - https://github.com/gnuradio/gr-recipes
 
