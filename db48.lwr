@@ -37,4 +37,4 @@ make: 'cd build_unix/
 satisfy:
   deb: (libdb++-dev >= 4.8 && libdb++-dev <= 5.1.9) || libdb4.8++-dev || libdb5.1++-dev
   rpm: (db4-devel >= 4.8 && db4-devel <= 5.1.9)
-source: wget+http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
+source: http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
