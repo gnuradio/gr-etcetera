@@ -20,6 +20,7 @@
 category: application
 depends:
 - gnuradio
+- qt5
 description: recorded data browser
 gitbranch: master
 inherit: cmake
