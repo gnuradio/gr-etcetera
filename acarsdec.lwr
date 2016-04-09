@@ -21,20 +21,12 @@ category: application
 depends:
 - rtl-sdr
 description: open source ACARS decoder with rtl_sdr frontend
-install: 'cp -v acarsdec $prefix/bin
+install: 'cp -v acarsdec $prefix/bin'
+installdir: ''
 
-  '
-make: '# Note: on non SSE2 processor, it may be necessary to add "-UUSE_SSE2" to CFLAGS
-
-  # This mess is necessary because the makefile doesn''t properly
-
-  # detect rtlsdr (via pkg-config, for example)
-
-  make CFLAGS="$(pkg-config --cflags librtlsdr ) -DWITH_RTL -Ofast -ftree-vectorize
-  -funroll-loops -pthread" LDLIBS="$(pkg-config --libs librtlsdr )  -lm -lrtlsdr -pthread"
+#on non-SSE2 processor, it may be necessary to add "-UUSE_SSE2" to CFLAGS
+make: 'make CFLAGS="$(pkg-config --cflags librtlsdr ) -DWITH_RTL -Ofast -ftree-vectorize -funroll-loops -pthread" LDLIBS="$(pkg-config --libs librtlsdr )  -lm -lrtlsdr -pthread"
 
   '
 source: git+https://github.com/ckuethe/acarsdec.git
-uninstall: 'rm -f $prefix/bin/acarsdec
-
-  '
+uninstall: 'rm -f $prefix/bin/acarsdec'
