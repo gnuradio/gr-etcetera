@@ -19,9 +19,8 @@
 
 category: application
 depends:
-- liquid-dsp
-- qt5
-description: recorded data browser
+- fftw
+description: digital signal processing library for software-defined radios
 gitbranch: master
-inherit: cmake
-source: git+https://github.com/miek/inspectrum.git
+inherit: bootstrapautoconf
+source: git+https://github.com/jgaeddert/liquid-dsp.git
