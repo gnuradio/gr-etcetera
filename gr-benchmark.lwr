@@ -20,6 +20,6 @@
 category: common
 depends:
 - gnuradio
-description: performance measurement tool for GNU Radio
+description: Performance measurement tool for GNU Radio
 gitbranch: master
 source: git+https://github.com/osh/gr-benchmark.git

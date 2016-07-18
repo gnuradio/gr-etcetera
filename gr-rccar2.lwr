@@ -21,7 +21,7 @@ category: common
 configuredir: gr-rccar2/build
 depends:
 - gnuradio
-description: Gnuradio implementation for cheap remote control cars
+description: GNU Radio implementation for cheap remote control cars
 gitbranch: master
 inherit: cmake
 installdir: gr-rccar2/build

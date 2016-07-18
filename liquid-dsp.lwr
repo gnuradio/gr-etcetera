@@ -20,7 +20,7 @@
 category: application
 depends:
 - fftw
-description: digital signal processing library for software-defined radios
+description: Digital signal processing library for software-defined radios
 gitbranch: master
 inherit: bootstrapautoconf
 source: git+https://github.com/jgaeddert/liquid-dsp.git

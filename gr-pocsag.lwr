@@ -21,7 +21,7 @@ category: common
 depends:
 - gnuradio
 - gr-compat
-description: multichannel POCSAG receiver for gnuradio
+description: Multichannel POCSAG receiver for gnuradio
 gitbranch: master
 inherit: cmake
 source: svn+https://www.cgran.org/svn/projects/gr-pocsag/trunk

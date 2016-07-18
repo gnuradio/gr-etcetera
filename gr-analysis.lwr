@@ -21,7 +21,7 @@ category: common
 depends:
 - gnuradio
 - uhd
-description: analysis tools for high sample rate recordings
+description: Analysis tools for high sample rate recordings
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/garverp/gr-analysis

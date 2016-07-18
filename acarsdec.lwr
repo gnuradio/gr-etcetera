@@ -20,7 +20,7 @@
 category: application
 depends:
 - rtl-sdr
-description: open source ACARS decoder with rtl_sdr frontend
+description: Open source ACARS decoder with rtl-sdr frontend
 install: 'cp -v acarsdec $prefix/bin'
 installdir: ''
 
