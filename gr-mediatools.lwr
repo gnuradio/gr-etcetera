@@ -21,7 +21,7 @@ category: common
 depends:
 - gnuradio
 - libav
-description: ffmpeg and gnu radio integration
+description: FFmpeg and gnu radio integration
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/osh/gr-mediatools.git

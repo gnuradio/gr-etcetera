@@ -22,7 +22,7 @@ depends:
 - gnuradio
 - gr-osmosdr
 - libitpp
-description: Gnuradio pager encoder
+description: GNU Radio pager encoder
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/unsynchronized/gr-mixalot.git

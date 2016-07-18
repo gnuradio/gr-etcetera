@@ -21,6 +21,7 @@ category: dsplib
 depends:
 - gnuradio
 - uhd
+description: GSM receiver using rtl-sdr
 gitbranch: master
 inherit: empty
 source: git+git://svn.berlin.ccc.de/airprobe

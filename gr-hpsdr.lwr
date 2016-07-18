@@ -20,7 +20,7 @@
 category: common
 depends:
 - gnuradio
-description: interface module for HPSDR Hermes / Metis
+description: Interface module for HPSDR Hermes / Metis
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/Tom-McDermott/gr-hpsdr.git

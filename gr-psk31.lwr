@@ -20,7 +20,7 @@
 category: common
 depends:
 - gnuradio
-description: tutorial on using psk31 with GNU Radio
+description: Tutorial on using psk31 with GNU Radio
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/tkuester/gr-psk31.git

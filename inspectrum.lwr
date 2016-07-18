@@ -21,7 +21,7 @@ category: application
 depends:
 - liquid-dsp
 - qt5
-description: recorded data browser
+description: Recorded data browser
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/miek/inspectrum.git

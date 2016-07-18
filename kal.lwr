@@ -23,6 +23,7 @@ depends:
 - uhd
 - curl
 - git
+description: GSM frequency scanner and clock offset calculator
 gitbranch: master
 inherit: bootstrapautoconf
 source: git+http://github.com/ttsou/kalibrate-uhd

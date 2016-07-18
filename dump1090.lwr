@@ -20,7 +20,7 @@
 category: application
 depends:
 - rtl-sdr
-description: simple Mode S decoder for RTLSDR devices
+description: Simple Mode S decoder for RTLSDR devices
 gitbranch: master
 inherit: empty
 builddir: .
