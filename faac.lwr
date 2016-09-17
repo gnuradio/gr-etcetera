@@ -18,6 +18,8 @@
 #
 
 category: baseline
+description: MPEG-4 and MPEG-2 AAC encoder
+inherit: empty
 satisfy:
   deb: libfaac-dev && libfaac0
   rpm: faac-devel
