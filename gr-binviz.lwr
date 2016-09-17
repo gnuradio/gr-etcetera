@@ -26,3 +26,6 @@ inherit: cmake
 satisfy:
   deb: libx11-dev && libpthread-stubs0-dev && cimg-dev
 source: git+https://github.com/CBrunsch/BinViz.git 
+configuredir: gr-binviz/build
+makedir: gr-binviz/build
+installdir: gr-binviz/build
