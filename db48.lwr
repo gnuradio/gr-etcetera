@@ -18,6 +18,7 @@
 #
 
 category: baseline
+description: Berkeley DB
 configure: 'cd build_unix/
 
   ../dist/configure --enable-cxx --prefix=$prefix --libdir=$prefix/lib64

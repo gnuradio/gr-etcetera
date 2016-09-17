@@ -18,6 +18,7 @@
 #
 
 category: baseline
+description: python-based interactive packet manipulation program and library
 satisfy:
   deb: python-scapy
   rpm: scapy
