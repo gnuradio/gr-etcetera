@@ -24,4 +24,4 @@ depends:
 description: Multichannel POCSAG receiver for gnuradio
 gitbranch: master
 inherit: cmake
-source: svn+https://www.cgran.org/svn/projects/gr-pocsag/trunk
+source: git+https://github.com/bafe/gr-pocsag.git
