@@ -19,37 +19,10 @@
 
 category: common
 depends:
-- mbelib
 - gnuradio
 - libsndfile
+- libitpp
 description: GNU Radio block for Digital Speech Decoder
 gitbranch: master
 inherit: cmake
-install: 'make install
-
-
-  mkdir -p $prefix/include/dsd
-
-
-  cp -v ../dsd/dsd.h $prefix/include
-
-  cp -v ../dsd/config.h $prefix/include
-
-  cp -v ../include/dsd_block_ff.h $prefix/include/dsd
-
-  cp -v ../include/dsd_api.h $prefix/include/dsd
-
-  '
 source: git+https://github.com/argilo/gr-dsd.git
-uninstall: 'make uninstall
-
-
-  rm -v $prefix/include/dsd.h || true
-
-  rm -v $prefix/include/config.h || true
-
-  rm -v $prefix/include/dsd/dsd_block_ff.h || true
-
-  rm -v $prefix/include/dsd/dsd_api.h || true
-
-  '
