@@ -17,14 +17,10 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends:
-- boost
-- libboost-random
-- gnuradio
-- libconfig
-- libjsoncpp
-description: Tools for efficient generation of wideband populated spectrum
-gitbranch: master
-inherit: cmake
-source: git+https://github.com/gr-vt/gr-signal_exciter.git
+category: baseline
+description: library for processing json files
+depends: null
+inherit: autoconf
+satisfy:
+  deb: libjsoncpp-dev
+  rpm: libjsoncpp-devel
