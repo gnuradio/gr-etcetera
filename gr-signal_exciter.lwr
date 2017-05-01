@@ -22,7 +22,6 @@ depends:
 - boost
 - libboost-random
 - gnuradio
-- libconfig
 - libjsoncpp
 description: Tools for efficient generation of wideband populated spectrum
 gitbranch: master
