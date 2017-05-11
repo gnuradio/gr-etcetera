@@ -23,4 +23,4 @@ depends:
 description: simple DSP library and command-line tool for Software Defined Radio
 gitbranch: master
 inherit: empty
-source: git+https://github.com/ckuethe/csdr
+source: git+https://github.com/simonyiszk/csdr
