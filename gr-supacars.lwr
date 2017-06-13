@@ -21,13 +21,8 @@ inherit: empty
 category: application
 depends:
 - rtl-sdr
-description: Open source ACARS decoder 
+description: Open source ACARS decoder and ACARS Parser
 install: 'cp -v gr-supacars $prefix/bin'
 installdir: ''
-
-#on non-SSE2 processor, it may be necessary to add "-UUSE_SSE2" to CFLAGS
-make: 'make CFLAGS="$(pkg-config --cflags librtlsdr ) -DWITH_RTL -Ofast -ftree-vectorize -funroll-loops -pthread" LDLIBS="$(pkg-config --libs librtlsdr )  -lm -lrtlsdr -pthread"
-
-  '
 source: git+https://github.com/mmmaaaxxx/SUPACARS.git
 uninstall: 'rm -f $prefix/bin/supacars'
