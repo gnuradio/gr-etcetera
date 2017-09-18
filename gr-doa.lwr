@@ -1,0 +1,36 @@
+# vim:ft=yaml:
+#
+# This file is part of PyBOMBS
+#
+# PyBOMBS is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3, or (at your option)
+# any later version.
+#
+# PyBOMBS is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with PyBOMBS; see the file COPYING.  If not, write to
+# the Free Software Foundation, Inc., 51 Franklin Street,
+# Boston, MA 02110-1301, USA.
+#
+
+# Package recipe:
+# GR-DOA: GNURadio OOT module for Direction of Arrival
+
+category: common
+depends:
+# Basic Dependencies
+- gnuradio
+- uhd
+- armadillo
+# Testing dependencies (octave has to be installed manually if needed)
+- scipy
+
+description: Direction of arrival Algorithms - Intended to be used with TwinRX
+gitbranch: master
+inherit: cmake
+source: git+https://github.com/EttusResearch/gr-doa.git
