@@ -20,7 +20,11 @@
 inherit: empty
 category: application
 depends:
+- gnuradio
 - rtl-sdr
+- gr-pyqt
+- wget
+- pip
 description: Open source ACARS decoder and ACARS Parser
 install: 'cp -v gr-supacars $prefix/bin'
 installdir: ''
