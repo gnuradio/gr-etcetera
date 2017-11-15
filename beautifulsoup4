@@ -16,17 +16,7 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 #
-
-inherit: empty
-category: application
-depends:
-- gnuradio
-- rtl-sdr
-- gr-pyqt
-- wget
-- pip
-description: Open source ACARS decoder and ACARS Parser
-install: 'cp -v gr-supacars $prefix/bin'
-installdir: ''
-source: git+https://github.com/mmmaaaxxx/SUPACARS.git
-uninstall: 'rm -f $prefix/bin/supacars'
+category: baseline
+depends: null
+satisfy:
+  deb: python-bs4
