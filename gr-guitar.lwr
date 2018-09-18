@@ -1,0 +1,7 @@
+category: common
+depends:
+- gnuradio
+description: A collection for GNU radio blocks to implemenet guitar effects
+gitbranch: master
+inherit: cmake
+source: git+https://github.com/achaudhari/gr-guitar.git
