@@ -20,6 +20,7 @@
 category: application
 depends:
 - rtl-sdr
+- soapysdr
 description: 433MHz generic data receiver using RTL2832 DVB dongle
 gitbranch: master
 inherit: cmake
