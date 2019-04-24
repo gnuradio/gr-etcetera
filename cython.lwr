@@ -23,5 +23,5 @@ depends:
 - numpy
 inherit: distutils
 satisfy:
-  deb: cython >= 3.0
+  deb: cython >= 0.26
 source: git+https://github.com/cython/cython.git
