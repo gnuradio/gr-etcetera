@@ -23,4 +23,5 @@ depends:
 description: GNU Radio Gpredict Doppler shift correction block
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/wnagele/gr-gpredict-doppler.git
+source: git+https://github.com/ghostop14/gr-gpredict-doppler.git
+
