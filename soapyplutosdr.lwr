@@ -25,4 +25,4 @@ depends:
 description: Soapy SDR module for PlutoSDR
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/pothosware/SoapyHackRF.git
+source: git+https://github.com/pothosware/SoapyPlutoSDR
