@@ -18,9 +18,9 @@
 #
 
 category: common
-depends:
 description: OpenGL Utility Toolkit
-inherit: empty
+inherit: cmake
 satisfy:
   deb: freeglut3 && freeglut3-dev
   rpm: freeglut && freeglut-devel
+source: wget+https://prdownloads.sourceforge.net/project/freeglut/freeglut/3.0.0/freeglut-3.0.0.tar.gz
