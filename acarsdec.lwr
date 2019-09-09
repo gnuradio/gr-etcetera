@@ -17,17 +17,13 @@
 # Boston, MA 02110-1301, USA.
 #
 
-inherit: empty
+description: Open source ACARS decoder with rtl-sdr frontend
+inherit: cmake
 category: application
 depends:
 - rtl-sdr
-description: Open source ACARS decoder with rtl-sdr frontend
-install: 'cp -v acarsdec $prefix/bin'
-installdir: ''
-
-#on non-SSE2 processor, it may be necessary to add "-UUSE_SSE2" to CFLAGS
-make: 'make CFLAGS="$(pkg-config --cflags librtlsdr ) -DWITH_RTL -Ofast -ftree-vectorize -funroll-loops -pthread" LDLIBS="$(pkg-config --libs librtlsdr )  -lm -lrtlsdr -pthread"
-
-  '
+- libacars
 source: git+https://github.com/ckuethe/acarsdec.git
-uninstall: 'rm -f $prefix/bin/acarsdec'
+
+vars:
+  config_opt: -Drtl=ON -DLIBACARS=$PYBOMBS_PREFIX/lib/libacars.so -DLIBRTL=$PYBOMBS_PREFIX/lib/librtlsdr.so -DCMAKE_INSTALL_PREFIX=$PYBOMBS_PREFIX -DCMAKE_C_FLAGS="$(pkg-config --cflags --libs librtlsdr libacars) -DRTLMULT=204"
