@@ -21,6 +21,6 @@ category: common
 depends:
 - gnuradio
 description: A few performance-enhanced GNURadio blocks (Costas Loop, AGC, and others) 
-gitbranch: master
+gitbranch: maint-3.7
 inherit: cmake
 source: git+https://github.com/ghostop14/gr-lfast.git
