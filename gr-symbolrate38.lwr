@@ -19,8 +19,8 @@
 
 category: common
 depends:
-- gnuradio
+- gnuradio38
 description: Calc digital symbol rates from binary slicer stream output 
-gitbranch: maint-3.7
+gitbranch: master
 inherit: cmake
 source: git+https://github.com/ghostop14/gr-symbolrate.git
