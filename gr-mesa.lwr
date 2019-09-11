@@ -19,10 +19,8 @@
 
 category: common
 depends:
-- gnuradio38
-description: GNURadio TCP and UDP source/sink blocks rewritten in C++/Boost. UDP block has header/crc options available as well. 
-gitbranch: master
+- gnuradio
+description: Collection of Components for Enhanced Signal Analysis
+gitbranch: maint-3.7
 inherit: cmake
-satisfy:
-  deb: zlib1g-dev && libpcap-dev
-source: git+https://github.com/ghostop14/gr-grnet.git
+source: git+https://github.com/ghostop14/gr-mesa.git
