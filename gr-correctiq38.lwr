@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- gnuradio38
+- gnuradio
 description: Finally, a GNURadio block to remove that IQ DC spike just like some software and drivers do! 
 gitbranch: master
 inherit: cmake

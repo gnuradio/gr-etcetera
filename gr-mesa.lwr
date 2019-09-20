@@ -21,6 +21,6 @@ category: common
 depends:
 - gnuradio
 description: Collection of Components for Enhanced Signal Analysis
-gitbranch: maint-3.7
+gitbranch: master
 inherit: cmake
 source: git+https://github.com/ghostop14/gr-mesa.git

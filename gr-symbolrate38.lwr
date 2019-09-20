@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- gnuradio38
+- gnuradio
 description: Calc digital symbol rates from binary slicer stream output 
 gitbranch: master
 inherit: cmake

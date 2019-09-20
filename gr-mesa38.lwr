@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- gnuradio38
+- gnuradio
 - gr-lfast38
 description: Collection of Components for Enhanced Signal Analysis
 gitbranch: master

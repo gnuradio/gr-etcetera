@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- gnuradio38
+- gnuradio
 description: A few performance-enhanced GNURadio blocks (Costas Loop, AGC, and others) 
 gitbranch: master
 inherit: cmake

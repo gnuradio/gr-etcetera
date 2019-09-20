@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- gnuradio38
+- gnuradio
 description: Control File Source replay with repeat delays and counts
 gitbranch: master
 inherit: cmake
