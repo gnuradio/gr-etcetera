@@ -19,7 +19,7 @@
 
 category: common
 depends:
-- gnuradio38
+- gnuradio
 description: GNU Radio Gpredict Doppler shift correction block
 gitbranch: master
 inherit: cmake
