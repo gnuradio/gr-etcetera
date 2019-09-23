@@ -19,7 +19,9 @@
 
 category: common
 depends:
-description: Phil Karn's libfec
+- gnuradio
+- gr-pdu_utils
+description: Misc blocks
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/quiet/libfec
+source: git+https://github.com/sandialabs/gr-sandia_utils.git

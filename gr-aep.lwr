@@ -19,11 +19,11 @@
 
 category: common
 depends:
+# Basic Dependencies
 - gnuradio
-- libfec
-- pyconstruct
-description: GNU Radio decoders for several Amateur satellites
+- armadillo
+
+description: Adaptive Event Processing using GNU Radio
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/daniestevez/gr-satellites
-
+source: git+https://github.com/perspectalabs/gr-aep.git

@@ -17,12 +17,11 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: baseline
+category: common
 depends:
-- python
-satisfy:
-  deb: python-construct >= 2.8
-  rpm: python-construct >= 2.8
-  python: construct.version >= 2.8
-source: https://github.com/construct/construct/archive/v2.8.12.tar.gz
-
+- gnuradio
+- gr-pdu_utils
+description: Tools for working with arbitrary bursty signals
+gitbranch: master
+inherit: cmake
+source: git+https://github.com/sandialabs/gr-fhss_utils.git
