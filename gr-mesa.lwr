@@ -20,6 +20,7 @@
 category: common
 depends:
 - gnuradio
+- gr-lfast
 description: Collection of Components for Enhanced Signal Analysis
 gitbranch: master
 inherit: cmake
