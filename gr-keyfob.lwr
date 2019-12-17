@@ -21,6 +21,6 @@ category: common
 depends:
 - gnuradio
 description: Transceiver for Hella wireless car key fobs
-gitbranch: maint-3.7
+gitbranch: maint-3.8
 inherit: cmake
 source: git+https://github.com/bastibl/gr-keyfob.git
