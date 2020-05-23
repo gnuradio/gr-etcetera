@@ -20,7 +20,6 @@
 category: common
 depends:
 - gnuradio
-- gr-compat
 description: GNU Radio blocks useful for amateur radio
 gitbranch: master
 inherit: cmake
