@@ -20,6 +20,7 @@
 category: common
 depends:
 - gnuradio
+- gr-lfast
 description: Control File Source replay with repeat delays and counts
 gitbranch: master
 inherit: cmake
