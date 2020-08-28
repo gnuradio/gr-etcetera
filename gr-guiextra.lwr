@@ -20,18 +20,7 @@
 category: common
 depends:
 - gnuradio
-- gr-limesdr
-- gr-satellites
-- gr-gpredict-doppler
-- gr-filerepeater
-- gr-fosphor
-- gr-display
-- gr-guiextra
-- libfec
-- pyconstruct
-- swig
-- requests
-description: A collection of OOT modules for developing an amateur satellite communications ground station. 
-gitbranch: maint-3.8
+description: Control File Source replay with repeat delays and counts
+gitbranch: master
 inherit: cmake
-source: git+https://github.com/wbarnha/gr-gmuground.git
+source: git+https://github.com/ghostop14/gr-guiextra.git
