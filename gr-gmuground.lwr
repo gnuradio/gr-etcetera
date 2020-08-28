@@ -30,7 +30,6 @@ depends:
 - libfec
 - pyconstruct
 - swig
-- requests
 description: A collection of OOT modules for developing an amateur satellite communications ground station. 
 gitbranch: maint-3.8
 inherit: cmake
