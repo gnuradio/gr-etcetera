@@ -19,7 +19,6 @@
 
 category: baseline
 description: Apache Portable Runtime
-depends: null
 inherit: autoconf
 satisfy:
   deb: libapr1-dev
