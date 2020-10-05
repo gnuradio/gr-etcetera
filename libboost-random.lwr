@@ -19,7 +19,6 @@
 
 category: baseline
 description: compiled boost random library
-depends: null
 inherit: autoconf
 satisfy:
   deb: libboost-random-dev

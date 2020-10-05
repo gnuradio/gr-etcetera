@@ -19,7 +19,6 @@
 
 category: baseline
 description: library for processing configuration files
-depends: null
 inherit: autoconf
 satisfy:
   deb: libconfig-dev
