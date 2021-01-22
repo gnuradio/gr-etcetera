@@ -21,8 +21,6 @@ category: common
 inherit: cmake
 depends:
 - gnuradio
-- python
-- cython
 - scipy
 - scikit-commpy
 source: git+https://github.com/jdemel/gr-gfdm.git
