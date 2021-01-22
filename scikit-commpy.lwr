@@ -23,7 +23,6 @@ depends:
 - python
 - scipy
 - numpy
-#- commpy
 satisfy:
   pip: scikit-commpy >= 0.3
 #  deb: scikit-commpy >= 0.3
