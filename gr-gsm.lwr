@@ -25,6 +25,7 @@ depends:
 - scipy
 - liblog4cpp
 - libosmocore
+- cppunit
 description: Gnuradio blocks and tools for receiving GSM transmissions
 gitbranch: master
 inherit: cmake
