@@ -23,4 +23,4 @@ depends:
 description: GNURadio out-ot-tree (OOT) module for optical wireless communications.
 gitbranch: master
 inherit: cmake
-source: https://github.com/UCaNLabUMB/gr-owc
+source: git+https://github.com/UCaNLabUMB/gr-owc
