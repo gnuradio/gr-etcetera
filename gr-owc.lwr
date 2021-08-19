@@ -21,6 +21,6 @@ category: common
 depends:
 - gnuradio
 description: GNURadio out-ot-tree (OOT) module for optical wireless communications.
-gitbranch: master
+gitbranch: main
 inherit: cmake
 source: git+https://github.com/UCaNLabUMB/gr-owc
