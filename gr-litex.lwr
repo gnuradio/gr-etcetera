@@ -20,9 +20,7 @@
 category: common
 depends:
 - gnuradio
-description: LiteX accelerator block for GNU Radio 
+description: LiteX accelerator block for GNU Radio
 gitbranch: master
 inherit: cmake
-satisfy:
-  deb: 
 source: git+https://github.com/Victoromoniyi/gr-litex
