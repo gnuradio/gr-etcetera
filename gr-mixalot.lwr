@@ -23,6 +23,6 @@ depends:
 - gr-osmosdr
 - libitpp
 description: GNU Radio pager encoder
-gitbranch: master
+gitbranch: main
 inherit: cmake
 source: git+https://github.com/unsynchronized/gr-mixalot.git
