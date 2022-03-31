@@ -24,4 +24,4 @@ description: Library for interfacing with Mirics devices
 inherit: cmake
 satisfy:
   deb: libmirisdr0 && libmirisdr-dev
-source: git+https://git.osmocom.org/libmirisdr
+source: git+https://gitea.osmocom.org/sdr/libmirisdr.git
