@@ -23,4 +23,4 @@ depends:
 description: Manage the sample latency between points in a flowgraph
 gitbranch: main
 inherit: cmake
-source: git+https://github.com/dkozel/latency_manager.git
+source: git+https://github.com/dkozel/gr-latency_manager.git
