@@ -20,6 +20,7 @@
 category: common
 depends:
 - gnuradio
+- liquid-dsp
 description: LoRA LPWAN PHY
 gitbranch: master
 inherit: cmake
