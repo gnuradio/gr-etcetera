@@ -20,7 +20,8 @@
 category: common
 depends:
 - gnuradio
+- cppunit
 description: AFSK1200 for GNU Radio
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/tkuester/gr-bruninga.git
+source: git+https://github.com/VladislavF/gr-bruninga
