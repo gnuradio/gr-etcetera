@@ -20,6 +20,7 @@
 category: common
 depends:
 - gnuradio
+- pyconstruct
 description: GNU Radio module for encoding byte data with the BBC algorithm
 gitbranch: master
 inherit: cmake
