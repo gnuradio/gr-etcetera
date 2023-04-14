@@ -22,6 +22,6 @@ depends:
 - gnuradio
 - numpy
 description: GNU Radio module for encoding byte data with the BBC algorithm
-gitbranch: master
+gitbranch: main
 inherit: cmake
 source: git+https://github.com/xeno00/gr-bbc.git
