@@ -21,7 +21,8 @@ category: common
 depends:
 - gnuradio
 description: GNU Radio M17 protocol implementation
-gitbranch: master
+gitbranch: main
+gitargs: --recursive
 inherit: cmake
 source: git+https://github.com/M17-Project/gr-m17.git
 vars:
