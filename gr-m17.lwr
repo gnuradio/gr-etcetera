@@ -25,5 +25,3 @@ gitbranch: main
 gitargs: --recursive
 inherit: cmake
 source: git+https://github.com/M17-Project/gr-m17.git
-vars:
-  config_opt: ' -DGR_PYTHON_DIR=$prefix/lib/python3 '
