@@ -1,0 +1,45 @@
+name: Build Changed Recipes
+
+on:
+  push:
+    paths:
+      - "**.lwr"
+  pull_request:
+    paths:
+      - "**.lwr"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: igorfreire/pybombs-dev:gnuradio310-ubuntu-jammy
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
+      - name: Set up local recipe repository
+        env:
+          HOME: /root/
+        run: |
+          git config --global --add safe.directory $PWD
+          pybombs recipes list-repos
+          pybombs recipes remove gr-etcetera
+          pybombs recipes add local .
+          pybombs recipes update
+      - name: Build new/updated recipes (PR)
+        env:
+          HOME: /root/
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          git --no-pager diff --name-only ${{ github.head_ref }} $(git merge-base ${{ github.head_ref }} ${{ github.base_ref }}) | \
+          grep .lwr | cut -d'.' -f 1 | \
+          xargs pybombs install
+      - name: Build new/updated recipes (push)
+        env:
+          HOME: /root/
+        if: ${{ github.event_name != 'pull_request' }}
+        run: |
+          git --no-pager diff --name-only ${{ github.ref_name }} $(git merge-base ${{ github.ref_name }} origin/master)
+          git --no-pager diff --name-only ${{ github.ref_name }} $(git merge-base ${{ github.ref_name }} origin/master) | \
+          grep .lwr | cut -d'.' -f 1 | \
+          xargs pybombs install
