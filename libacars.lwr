@@ -17,13 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
-description: Open source ACARS decoder with rtl-sdr frontend
+category: common
+description: A library for decoding various ACARS message payloads
+gitbranch: master
 inherit: cmake
-category: application
-depends:
-- rtl-sdr
-- libacars
-source: git+https://github.com/TLeconte/acarsdec.git
-
-vars:
-  config_opt: -Drtl=ON
+source: git+https://github.com/szpajder/libacars.git
