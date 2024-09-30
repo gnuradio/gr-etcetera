@@ -23,6 +23,6 @@ depends:
 - uhd
 - gr-foo
 description: IEEE 802.15.4 ZigBee Transceiver
-gitbranch: maint-3.8
+gitbranch: maint-3.10
 inherit: cmake
 source: git+https://github.com/bastibl/gr-ieee802-15-4.git
