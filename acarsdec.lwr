@@ -23,7 +23,7 @@ category: application
 depends:
 - rtl-sdr
 - libacars
-source: git+https://github.com/ckuethe/acarsdec.git
+source: git+https://github.com/TLeconte/acarsdec.git
 
 vars:
-  config_opt: -Drtl=ON -DLIBACARS=$PYBOMBS_PREFIX/lib/libacars.so -DLIBRTL=$PYBOMBS_PREFIX/lib/librtlsdr.so -DCMAKE_INSTALL_PREFIX=$PYBOMBS_PREFIX -DCMAKE_C_FLAGS="$(pkg-config --cflags --libs librtlsdr libacars) -DRTLMULT=204"
+  config_opt: -Drtl=ON
