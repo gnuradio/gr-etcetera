@@ -27,4 +27,4 @@ satisfy:
   pacman: verilator
   port: verilator
   portage: sci-electronics/verilator
-source: wget+https://github.com/verilator/verilator/archive/refs/tags/v4.038.zip
+source: wget+https://github.com/verilator/verilator/archive/refs/tags/v4.038.tar.gz
