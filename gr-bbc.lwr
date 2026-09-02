@@ -20,8 +20,7 @@
 category: common
 depends:
 - gnuradio
-- numpy
-description: GNU Radio module for encoding byte data with the BBC algorithm
+description: Baird, Bahn and Collins (BBC) jam-resistant concurrent codec
 gitbranch: main
 inherit: cmake
-source: git+https://github.com/xeno00/gr-bbc.git
+source: git+https://github.com/livethisdream/gr-bbc.git
